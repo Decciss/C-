@@ -133,7 +133,6 @@ namespace SRBD
             SqlCommand dmd = new SqlCommand(query, conn);
             dmd.ExecuteNonQuery();
             conn.Close();
-            dataGridView1.Update();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -144,7 +143,6 @@ namespace SRBD
             SqlCommand dmd = new SqlCommand(query, conn);
             dmd.ExecuteNonQuery();
             conn.Close();
-            dataGridView1.Update();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -171,7 +169,6 @@ namespace SRBD
             SqlCommand dmd = new SqlCommand(query, conn);
             dmd.ExecuteNonQuery();
             conn.Close();
-            dataGridView1.Update();
         }
     }
 }
