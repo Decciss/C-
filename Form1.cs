@@ -18,6 +18,9 @@ namespace SRBD
 
         string connString = "Data Source = DESKTOP - UQOV7LN; Initial Catalog = DBPROJEKT; Integrated Security = True";
         String a;
+        String test;
+        String best;
+        string kamil;
         public Form1()
         {
             InitializeComponent();
